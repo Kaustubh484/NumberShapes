@@ -6,40 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="393dp"
-        android:layout_height="61dp"
-        android:background="#FDFAFA"
-        android:fontFamily="sans-serif-medium"
-        android:text="Number Shapes"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:textColor="#C53A3A"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.75"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.100000024" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="311dp"
-        android:layout_height="91dp"
-        android:layout_marginStart="82dp"
-        android:layout_marginLeft="82dp"
-        android:layout_marginTop="63dp"
-        android:layout_marginEnd="127dp"
-        android:layout_marginRight="127dp"
-        android:layout_marginBottom="481dp"
-        android:text="Enter a number"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.13999999" />
-
     <EditText
         android:id="@+id/number"
         android:layout_width="237dp"
@@ -60,19 +26,47 @@
         app:layout_constraintVertical_bias="0.01999998" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="388dp"
-        android:layout_height="722dp"
+        android:layout_width="410dp"
+        android:layout_height="739dp"
         tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="9dp">
+        tools:layout_editor_absoluteY="-5dp">
 
         <Button
             android:id="@+id/button"
             android:layout_width="160dp"
             android:layout_height="88dp"
+            android:layout_marginStart="230dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="424dp"
+            android:layout_marginBottom="227dp"
             android:onClick="check"
             android:text="CHECK"
-            tools:layout_editor_absoluteX="230dp"
-            tools:layout_editor_absoluteY="617dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="311dp"
+            android:layout_height="91dp"
+            android:text="Enter a number"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="193dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="393dp"
+            android:layout_height="61dp"
+            android:background="#FDFAFA"
+            android:fontFamily="sans-serif-medium"
+            android:text="Number Shapes"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="#C53A3A"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="74dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
